@@ -7,9 +7,9 @@
 }
 
 body {
- font-family: 'Poppins';
- background-color: #FFF;
-  color: #000000;
+    font-family: 'Poppins';
+    background-color: #FFF;
+    color: #000000;
 }
 
 .site-header {
@@ -28,11 +28,11 @@ body {
 
 /* Logo */
 .logo img {
-    width: 243px;
-  height: 49px;
-  margin-top: 20px;
-  margin-left: 44px;
-  margin-right: 60px;
+    width: 230px;
+    height: 49px;
+    margin-top: 20px;
+    margin-left: 34px;
+    margin-right: 40px;
 }
 
 /* Navigation */
