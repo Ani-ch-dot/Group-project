@@ -5,3 +5,128 @@
     text-decoration: none;
     
 }
+
+body {
+ 
+ background-color: #FFF;
+  color: #000000;
+}
+
+.site-header {
+  background-color: #FFFFFF;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 2300px;
+  margin: 0 auto;
+}
+
+/* Logo */
+.logo img {
+    width: 243px;
+  height: 49px;
+  margin-top: 20px;
+  margin-left: 44px;
+  margin-right: 60px;
+}
+
+/* Navigation */
+.main-nav ul {
+  display: flex;
+  gap: 160px;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  color: #48E0DC;
+  outline: none;
+}
+
+/* Buttons */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Contact Us Button */
+.contact-btn {
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #48E0DC;
+  background-color: #FFF;
+  color: #000;
+  border-radius: 999px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  margin-right: 66px;
+  margin-left: 62px;
+}
+
+.contact-btn:hover,
+.contact-btn:focus {
+  background-color: #48E0DC;
+  color: #000;
+  outline: none;
+}
+
+/* Search Button */
+.search-btn {
+  background-color: #48E0DC;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  margin-top: 20px;
+}
+
+.search-btn::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.search-btn::after {
+  content: "";
+  width: 6px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  transform: rotate(45deg);
+}
+
+
+.search-btn:hover,
+.search-btn:focus {
+  background-color: #3BCAC7;
+  outline: none;
+}
+
