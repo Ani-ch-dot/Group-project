@@ -202,13 +202,11 @@ h5{
 
    .card {
       max-width: 900px;
-      margin-top: 588px;
+      margin: 558px 118px 97px 118px;
       background-color: white;
       border-radius: 16px;
       overflow: hidden;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-      margin-left: 118px;
-      margin-right: 118px;
     }
 
     .card img {
