@@ -202,7 +202,9 @@ h5{
 
    .card {
       max-width: 900px;
-      margin: 558px 118px 97px 118px;
+      margin-top: 558px;
+      margin-left: 400px;
+      margin-right: 400px;
       background-color: white;
       border-radius: 16px;
       overflow: hidden;
