@@ -334,9 +334,13 @@ h6{
     }
 
 .borderi{
- border-bottom: 1px solid #BCBCBC;
- padding-bottom: 217px;
- padding-left: 83px;
+     border-bottom: 1px solid #BCBCBC;
+     padding-bottom: 217px;
+     padding-left: 83px;
+     margin: auto;
+     width: fit-content;
+     padding-left: 483px;
+     padding-right: 483px;
 }
 
 
