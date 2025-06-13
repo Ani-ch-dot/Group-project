@@ -151,7 +151,8 @@ h6{
  .navbar {
       display: flex;
       align-items: flex-start;
-      padding: 50px 40px 62px 40px;
+      margin: 50px auto;
+      justify-content: center;
     }
 
     .logo {
