@@ -149,123 +149,103 @@ h6{
     padding:10px 40px ;
 }
 
-.site-header {
-  background-color: #FFFFFF;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid #eee;
-}
+ .navbar {
+      display: flex;
+      align-items: flex-start;
+      padding: 50px 40px 62px 40px;
+    }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 2300px;
-  margin: 0 auto;
-}
+    .logo {
+      font-size: 24px;
+      font-weight: 300;
+      margin-right: 255px;
+    }
 
-/* Logo */
-.logo img {
-    width: 230px;
-    height: 49px;
-    margin-top: 20px;
-    margin-left: 34px;
-    margin-right: 40px;
-}
+    .logo span {
+      font-weight: 500;
+      position: relative;
+    }
 
-/* Navigation */
-.main-nav ul {
-  display: flex;
-  gap: 160px;
-  list-style: none;
-  margin-top: 20px;
-  margin-left: 60px;
-}
+    .logo span::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0.1em;
+      width: 100%;
+      height: 0.5em;
+      background-color: #4ef0e4;
+      z-index: -1;
+    }
 
-.main-nav a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-  transition: color 0.3s;
-}
+    .nav-links {
+      display: flex;
+      gap: 60px;
+      align-items: flex-start;
+      margin-top: 2px;
+      margin-left: -40px auto;
+    }
 
-.main-nav a:hover,
-.main-nav a:focus {
-  color: #48E0DC;
-  outline: none;
-}
+    .nav-links a {
+      background-color: transparent;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      border: 2px solid transparent;
+      transition: background 0.3s ease;
+    }
 
-/* Buttons */
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
+    .nav-links a:hover {
+      background-color: #4ef0e4;
+    }
 
-/* Contact Us Button */
-.contact-btn {
-  padding: 0.5rem 1.5rem;
-  border: 2px solid #48E0DC;
-  background-color: #FFF;
-  color: #000;
-  border-radius: 999px;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background-color 0.3s;
-  margin-top: 20px;
-  margin-right: 66px;
-  margin-left: 62px;
-}
+    .actions {
+      display: flex;
+      gap: 60px;
+      margin-left: auto;
+      align-items: center;
+    }
 
-.contact-btn:hover,
-.contact-btn:focus {
-  background-color: #48E0DC;
-  color: #000;
-  outline: none;
-}
+    .btn-contact {
+      background-color: transparent;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      border: 2px solid transparent;
+      transition: background 0.3s ease;
+    }
 
-/* Search Button */
-.search-btn {
-  background-color: #48E0DC;
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  position: relative;
-  margin-top: 20px;
-}
+    .btn-contact:hover {
+      background-color: #4ef0e4;
+    }
 
-.search-btn::before {
-  content: "";
-  width: 12px;
-  height: 12px;
-  border: 2px solid #000;
-  border-radius: 50%;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
+ .search-btn {
+      border: 0px;
+      background-color: transparent;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
 
-.search-btn::after {
-  content: "";
-  width: 6px;
-  height: 2px;
-  background: #000;
-  position: absolute;
-  top: 22px;
-  left: 22px;
-  transform: rotate(45deg);
-}
+    .search-btn:hover {
+      background-color: #4ef0e4;
+    }
 
-
-.search-btn:hover,
-.search-btn:focus {
-  background-color: #3BCAC7;
-  outline: none;
-}
+    .search-btn svg {
+      width: 16px;
+      height: 16px;
+      stroke: #000;
+      stroke-width: 2;
+      fill: none;
+    }
 
    .card {
       max-width: 900px;
