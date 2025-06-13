@@ -247,7 +247,7 @@ h6{
       fill: none;
     }
 
-   .card {
+   .card1 {
       max-width: 900px;
       margin: 53px auto;
       background-color: white;
@@ -256,7 +256,7 @@ h6{
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
 
-    .card img {
+    .card1 img {
       width: 100%;
       height: auto;
       display: block;
@@ -360,3 +360,101 @@ h6{
      .button-2:hover{
       background-color: #4ef0e4;
      }
+
+
+
+      .trending-section {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .trending-title {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      width: 48%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .category-label {
+      background-color: #000;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 20px;
+      padding: 9px 63px 9px 63px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .card-image {
+      position: relative;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .card-meta img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .card-meta span {
+      color: gray;
+      font-size: 13px;
+    }
+
+    .card-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .card-desc {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .read-more {
+      color: #1dd4cf;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+    }
