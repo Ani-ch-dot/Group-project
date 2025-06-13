@@ -12,7 +12,7 @@ body {
 /* header */
 
 header{
-  max-width: 1272px;
+  max-width: 1440px;
   padding: 37px 84px;
   margin: 0 auto;
   display: flex;
@@ -84,14 +84,12 @@ header{
     padding-left: 84px;
     padding-right: 84px;
     margin: 0 auto;
-    max-width: 1272px;
-
+    max-width: 1440px;
 }
     
 
 .box-1{
     background-image:url(Mask\ group.png);
-    max-width: 1272px;
     width: 100%;
     height: 559px;
     background-position: center;
@@ -106,6 +104,7 @@ header{
     flex-direction: column;
     justify-content: center;
     padding-left: 57px;
+    padding-right: 57px;
     align-items: flex-start;
     padding-top:218px ;
     padding-bottom: 141px;
@@ -154,7 +153,7 @@ h5{
 .container-2{
     display: flex;
     flex-direction: column;
-    max-width: 1272px;
+    max-width: 1440px;
     height: 288px;
     padding: 73px 84px;
     margin: 73px auto;
@@ -257,8 +256,10 @@ h6{
       fill: none;
     }
 
+    /* article */
+
    .card {
-      max-width: 900px;
+      max-width: 1204px;
       margin: 53px auto;
       background-color: white;
       border-radius: 20px;
