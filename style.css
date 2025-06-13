@@ -12,7 +12,7 @@ body {
 /* header */
 
 header{
-  max-width: 1272px;
+  max-width: 1440px;
   padding: 37px 84px;
   margin: 0 auto;
   display: flex;
@@ -35,45 +35,44 @@ header{
   align-items: center;        
 }
 
-    .btn-contact {
-      background-color: transparent;
-      padding: 10px 20px;
-      border-radius: 20px;
-      color: #000;
-      font-weight: 600;
-      text-decoration: none;
-      border: 2px solid transparent;
-      transition: background 0.3s ease;
-    }
+.main-navigation a{
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+  transition: color 0.3s;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
 
-    .btn-contact:hover {
-      background-color: #4ef0e4;
-    }
+.main-navigation a:hover{
+  background-color: #48E0DC;
+  border-radius: 40px;
+}
 
- .search-btn {
-      border: 0px;
-      background-color: transparent;
-      border-radius: 50%;
-      width: 35px;
-      height: 35px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
+.search-button{
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.3s;
+  background-color: transparent;
+  width: 47px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .search-btn:hover {
-      background-color: #4ef0e4;
-    }
+.search-button img{
+  height: 24px; 
+}
 
-    .search-btn svg {
-      width: 16px;
-      height: 16px;
-      stroke: #000;
-      stroke-width: 2;
-      fill: none;
-    }
+.search-button:hover{
+  background-color: #48E0DC;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+}
 
 /* 1st section */
 
@@ -255,8 +254,10 @@ h6{
       fill: none;
     }
 
-   .card {
-      max-width: 900px;
+    /* article */
+
+   .card1 {
+      max-width: 1204px;
       margin: 53px auto;
       background-color: white;
       border-radius: 20px;
@@ -348,8 +349,8 @@ h6{
      padding-left: 83px;
      margin: auto;
      width: fit-content;
-     padding-left: 483px;
-     padding-right: 483px;
+     padding-left: 623px;
+     padding-right: 623px;
 }
 
 
@@ -372,8 +373,8 @@ h6{
 
 
       .trending-section {
-      max-width: 1200px;
-      margin: 0 auto;
+     margin: 87px auto;
+     max-width: 1200px;
     }
 
     .trending-title {
@@ -384,13 +385,14 @@ h6{
 
     .card-container {
       display: flex;
-      gap: 30px;
+      gap: 45px;
       flex-wrap: wrap;
     }
 
     .card {
+        height: 550px;
       background-color: white;
-      border-radius: 15px;
+      border-radius: 20px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
       width: 48%;
       overflow: hidden;
@@ -406,11 +408,11 @@ h6{
     }
 
     .category-label {
-      background-color: #000;
+      background-color: #262626;
       color: white;
       font-size: 12px;
       font-weight: bold;
-      border-radius: 20px;
+      border-radius: 40px;
       padding: 9px 63px 9px 63px;
       position: absolute;
       top: 10px;
@@ -422,6 +424,7 @@ h6{
     }
 
     .card-content {
+        margin-block-end: auto;
       padding: 20px;
     }
 
